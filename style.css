@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,800;1,900&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color:rgb(217, 228, 62);
+    font-family:'Open Sans';
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    color: aliceblue;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: Bold;
+    font-size: 1rem;
+
+}
+
+li img{
+    padding: 0 10px;
+    width: 40px;
+    height:40px;
+}
+
+.container{
+min-height: 72vh;
+width:80%;
+background-color: black;
+color: white;
+font-family:'open sans';
+font-weight: lighter;
+display: flex;
+margin: 23px auto;
+border-radius: 10px;
+padding: 30px;
+background-image: url(/Img/c-d-x-PDX_a_82obo-unsplash.jpg);
+background-size: 100%;
+}
+
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color:rgb(217, 228, 62);
+    color: white;
+    bottom:0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'poppins';
+}
+.songInfo img{
+opacity: 0;
+transition: opacity 1s ease-in;
+}
+
+.icons{
+ margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.songItemContainer :hover{
+    background-color: white;
+    color:black;
+    transition: 0.5s;
+   }
+   
+.songItem{
+height: 50px;
+display: flex;
+color: black;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+margin-top: 10px;
+width: 100%;
+background: transparent;
+color: white;
+border-bottom: 1px solid white;
+}
+
+.songItem img{
+    width: 30px;
+    height: 39px;
+    border-radius: 30px;
+    margin: 0 23px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+     
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.navTabs{
+    display: flex;
+    justify-content: center;
+}
+.navTabs :hover{
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    color:black;
+    transition: 0.5s;
+    cursor: pointer;
+}
